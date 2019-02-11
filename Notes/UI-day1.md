@@ -137,3 +137,9 @@ https://www.w3schools.com/cssref/
 ```
 /* write your comments in here. won't be read by the compiler */
 ```
+
+###### Specificity hierarchy
+
+!important > inline styles > ID > class > element(tag)
+
+## A kitten dies in Africa everytime you use !important for no reason in CSS
