@@ -53,12 +53,10 @@
 </div>
 <section>                                     <!-- basically a semantic div -->
     <h2>Fly with us</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime similique ad possimus non nesciunt, quaerat quidem dolores velit placeat iure commodi, tempora aliquam sequi tenetur et illo rem ea quae!
-
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit at suscipit, magnam blanditiis qui eum magni unde, veritatis quas neque possimus tempora est mollitia ex. Voluptatibus quo inventore itaque.
-
-</p>
-
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime similique ad possimus non nesciunt,
+     quaerat quidem dolores velit placeat iure commodi, tempora aliquam sequi tenetur et illo rem ea quae!
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    </p>
 </section>
 ```
 
@@ -66,18 +64,26 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit at suscipit, 
 
 - called user agent stylesheet in chrome
 
+```
 [selector type] {
-[property name]:[property value];
+    [property name]:[property value];
 }
+```
 
-###### selector type
+## selector type
 
-**universal selector**
-\*{
+###### universal selector
+
+```
+*{
 color:red;
 box-sizing:border-box;
 }
-**tag selector**
+```
+
+###### tag selector
+
+```
 header{
 color:red;
 }
@@ -87,7 +93,11 @@ color:blue;
 p{
 color:purple;
 }
-**class selector**
+```
+
+###### class selector
+
+```
 .classname{
 color:black;
 }
@@ -97,21 +107,33 @@ color:green;
 .random-class-name{
 color:white;
 }
-**ID selector**
+```
 
+###### ID selector
+
+```
 #idname{
-font-size:16px;
-}
+        font-size:16px;
+        }
+```
 
 - only one specific name per id, very high specificity
-  **nested selector**
-  header nav a{
-  color:blue;
-  }
-  <!-- selects the specific a tag that's inside a nav tag that's inside a header tag, more specific -->
 
-**property name**
+###### nested selector
+
+```
+header nav a{
+                color:blue;
+            }
+/* selects the specific a tag that's inside a nav tag that's inside a header tag, more specific */
+```
+
+###### property name
+
 https://www.w3schools.com/cssref/
 
-**comments in CSS**
-/_ write your comments in here. won't be read by the compiler _/
+###### comments in CSS
+
+```
+/* write your comments in here. won't be read by the compiler */
+```
