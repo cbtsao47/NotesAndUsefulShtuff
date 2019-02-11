@@ -70,9 +70,9 @@
 }
 ```
 
-## selector type
+## Selector types
 
-###### universal selector
+###### Universal selector
 
 ```
 *{
@@ -81,7 +81,7 @@ box-sizing:border-box;
 }
 ```
 
-###### tag selector
+###### Tag selector
 
 ```
 header{
@@ -95,7 +95,7 @@ color:purple;
 }
 ```
 
-###### class selector
+###### Class selector
 
 ```
 .classname{
@@ -119,7 +119,7 @@ color:white;
 
 - only one specific name per id, very high specificity
 
-###### nested selector
+###### Nested selector
 
 ```
 header nav a{
@@ -128,11 +128,11 @@ header nav a{
 /* selects the specific a tag that's inside a nav tag that's inside a header tag, more specific */
 ```
 
-###### property name
+###### Property name
 
 https://www.w3schools.com/cssref/
 
-###### comments in CSS
+###### Comments in CSS
 
 ```
 /* write your comments in here. won't be read by the compiler */
