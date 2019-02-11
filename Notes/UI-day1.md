@@ -1,6 +1,6 @@
-##### HTML- Hyper Text Markup Language
+# HTML- Hyper Text Markup Language
 
-##### href= hyper text reference
+## href= hyper text reference
 
 ```
 <a href='http://lambdaschool.com/' target="_blank">Lambda School</a>
@@ -12,6 +12,7 @@
 
 ```
 <!DOCTYPE html>
+```
 
 - self closing
 - tells the browser that this document is a html type, therefore using a set of standards that a group of nerds agreed upon.
@@ -19,11 +20,15 @@
 
 ##### Standards
 
+```
 <h1>This is a tag following the standards</h1>
+```
 
 ##### No Standards
 
+```
 <airport>This is a random custom tag!</airport>
+```
 
 ##### Semantic === Meaningful
 
@@ -36,6 +41,7 @@
 1. Layout of the site ( UX )
 2. Marketing to your users ( instruction of your site )
 
+```
 <div class='container'>
         <header>
             <h1>International Airport</h1>     <!-- shows as the first thing in google -->
