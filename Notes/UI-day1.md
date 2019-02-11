@@ -2,12 +2,15 @@
 
 ##### href= hyper text reference
 
+```
 <a href='http://lambdaschool.com/' target="_blank">Lambda School</a>
+```
 
 - href is an attribute
 - anything inside a tag is an attribute
 - target links the website out ( creating a new tab )
 
+```
 <!DOCTYPE html>
 
 - self closing
@@ -51,6 +54,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit at suscipit, 
 </p>
 
 </section>
+```
 
 ##### CSS
 
@@ -102,3 +106,6 @@ font-size:16px;
 
 **property name**
 https://www.w3schools.com/cssref/
+
+**comments in CSS**
+/_ write your comments in here. won't be read by the compiler _/
