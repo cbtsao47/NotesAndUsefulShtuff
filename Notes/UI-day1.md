@@ -47,45 +47,58 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime similique ad possimus non nesciunt, quaerat quidem dolores velit placeat iure commodi, tempora aliquam sequi tenetur et illo rem ea quae!
 
 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id fugit at suscipit, magnam blanditiis qui eum magni unde, veritatis quas neque possimus tempora est mollitia ex. Voluptatibus quo inventore itaque.
+
 </p>
 
 </section>
-
 
 ##### CSS
 
 - called user agent stylesheet in chrome
 
 [selector type] {
-    [property name]:[property value]; 
+[property name]:[property value];
 }
 
 ###### selector type
+
 **universal selector**
-*{
-    color:red;
-    box-sizing:border-box;
+\*{
+color:red;
+box-sizing:border-box;
 }
 **tag selector**
 header{
-    color:red;
+color:red;
 }
 h1{
-    color:blue;
+color:blue;
 }
 p{
-    color:purple;
+color:purple;
 }
 **class selector**
 .classname{
-    color:black;
+color:black;
 }
 .container{
-    color:green;
+color:green;
 }
 .random-class-name{
-    color:white;
+color:white;
 }
+**ID selector**
+
+#idname{
+font-size:16px;
+}
+
+- only one specific name per id, very high specificity
+  **nested selector**
+  header nav a{
+  color:blue;
+  }
+  <!-- selects the specific a tag that's inside a nav tag that's inside a header tag, more specific -->
 
 **property name**
 https://www.w3schools.com/cssref/
