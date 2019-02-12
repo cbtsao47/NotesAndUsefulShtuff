@@ -85,7 +85,7 @@ html{
 }
 ```
 
-![Visual view for block vs inline](../assets/chrome_2019-02-12-12-48-43.png)
+![Visual view for block vs inline](../assets/visualView.png)
 
 ###### block
 
